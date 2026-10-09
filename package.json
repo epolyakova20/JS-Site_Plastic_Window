@@ -1,0 +1,15 @@
+{
+  "name": "diploma-middle-02",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Diploma JavaScript project with native ES6 modules bundled by Webpack",
+  "scripts": {
+    "build": "webpack --mode development",
+    "build:production": "webpack --mode production",
+    "dev": "webpack --watch --mode development"
+  },
+  "devDependencies": {
+    "webpack": "^5.102.1",
+    "webpack-cli": "^6.0.1"
+  }
+}
